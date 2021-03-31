@@ -1,18 +1,45 @@
-body{
-    font-size: 24px ;
-    background-size: cover;
-    background-image: url(pixel.jpg);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
 
-main#container{
-    box-shadow: 2px 2px 5px 5px;
-    border-width: 15px;
-    background-color: #7098b148; ;
-    width: 700px;
-    height: 200px ;
-    
+body{
+    background-size: cover ;
+    background-image: url(pixel.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
 }
+
+#container{
+    font-size: 25px;
+    box-shadow:rgb(56, 81, 88);
+    background-color: #7098b148;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}  
 
 h1.titulo{
-    text-indent: 50px;
+    font-family: dancing script;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-align: center;
+}
+
+p.frase{
+    font-family: dancing script;
+    text-align: center;  
+}
+
+p.autor{
+    font-family: dancing script;
+    text-align: end;
 }
